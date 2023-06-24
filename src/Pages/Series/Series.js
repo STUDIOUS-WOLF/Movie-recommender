@@ -23,7 +23,7 @@ const Series = () => {
     window.scroll(0, 0);
     fetchSeries();
     // eslint-disable-next-line
-  }, [genreforURL, page]);
+  }, [page]);
 
   return (
     <div>
