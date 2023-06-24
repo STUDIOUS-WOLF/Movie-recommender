@@ -94,7 +94,7 @@ const Search = () => {
               title={c.title || c.name}
               date={c.first_air_date || c.release_date}
               media_type={type ? "tv" : "movie"}
-              vote_average={c.vote_average}
+              vote_average={Math.floor(c.vote_average)}
             />
           ))}
         {searchText &&
